@@ -1,0 +1,66 @@
+/* You can add global styles to this file, and also import other style files */
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.red {
+  color: red;
+}
+
+a.link {
+  color: blue;
+  cursor: pointer;
+}
+
+.header, .footer {
+  width: 100%;
+  padding: 10px;
+}
+
+.footer {
+  position: fixed;
+  bottom:0;
+  left: 0;
+}
+
+.header a, .footer a {
+  color: white;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.filler {
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.alert.success {
+  background-color: #dff0d8;
+  border-color: #d0e9c6;
+  color: #3c763d;
+}
+
+.alert.error {
+  background-color: #f2dede;
+  border-color: #ebcccc;
+  color: #a94442;
+}
